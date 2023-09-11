@@ -20,12 +20,47 @@
             tools:layout_editor_absoluteY="128dp" />
 
         <Button
-            android:id="@+id/btnBack"
+            android:id="@+id/btnSubmit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BACK"
-            tools:layout_editor_absoluteX="161dp"
-            tools:layout_editor_absoluteY="169dp" />
+            android:text="SUBMIT ANSWER"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/txtNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <EditText
+            android:id="@+id/txtAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Your Answer"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/txtNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <TextView
+            android:id="@+id/txtPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="176dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
